@@ -1,3 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+body {
+    font-family: Fredoka, Arial, Helvetica, sans-serif;
+}
 * {
     box-sizing: border-box;
     margin: 0;
@@ -43,5 +49,52 @@ ul {
   .navbar-left {
       position: relative;
       margin-left: 150px;
+      font-weight: bolder;
   }
 
+  .section-one {
+    background-color: #1F2937;
+    height: 350px;
+    display: flex;
+  }
+
+  .left-bar {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+  }
+
+  p.block {
+      display: block;
+  }
+
+  .font-big {
+      font-size: 40px;
+  }
+
+  .font {
+      background-color: #3882F6;
+      color: white;
+      border: none;
+      font-size: 16px;
+      padding: 10px 24px;
+      border-radius: 12px;
+      margin-top: 15px;
+      font-family: Fredoka;
+  }
+
+  .blue {
+      position: absolute;
+      z-index: auto;
+      background-color: white;
+  }
+
+  .blue {
+    height: 300px;
+    border-radius: 15px;
+    position: relative;
+    margin-right: 250px;
+  }
