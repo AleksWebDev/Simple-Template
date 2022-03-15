@@ -1,71 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Simple Template</title>
+    <link rel="stylesheet" href="./styles.css">
+    <title>Landing Page</title>
 </head>
+
 <body>
     <header>
-        <nav>
-            <ul>
-                <li class="navbar-left"><a href="#">Header Logo</a></li>
-                <li class="navbar-right nav"><a href="#">Home</a></li>
-                <li class="navbar-right"><a href="#">Contact</a></li>
-                <li class="navbar-right"><a href="#">About</a></li>
-              </ul>
-        </nav>
+        <div class="nav">
+            <div class="left">
+                <p id="logo">Header Logo</p>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">header link one</a></li>
+                    <li><a href="#">header link two</a></li>
+                    <li><a href="#">header link three</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="welcome">
+            <div class="left">
+                <h1 class="hero">This website is awesome</h1>
+                <p class="secondary">This website has some subtext that goes here under the main title. It's a smaller
+                    font and the
+                    color is lower contrast.</p>
+                <button class="secondary">Sign up</button>
+            </div>
+            <div class="right">
+                <div class="image">
+                    <p class="secondary">this is a placeholder for an image</p>
+                </div>
+            </div>
+        </div>
     </header>
-    <section class="section-one">
-        <section class="left-bar">
-            <h1 class="font-big">This website is awesome</h1>
-            <p class="block ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, magni!</p>
-            <button class="font">Sign Up</button>
-        </section>
-        <section class="left-bar">
-            <img src="./img/paintbrush.webp" alt="" class="blue">
-        </section>
-    </section>
-    <section>
-        <h2>Some random information</h1>
-        <div>
-            <img src="" alt="">
-            <p>Some simple text underneath an image</p>
-        </div>
-        <div>
-            <img src="" alt="">
-            <p>Some simple text underneath an image</p>
-        </div>
-        <div>
-            <img src="" alt="">
-            <p>Some simple text underneath an image</p>
-        </div>
-        <div>
-            <img src="" alt="">
-            <p>Some simple text underneath an image</p>
-        </div>
-    </section>
-    <section>
-        <h3>Some kind of inspiring quote, or a testimonial from a customer. Maybe something just to fill up space for people who will read it.
-             Who knows ? It looks nice atleast.
-        </h3>
-        <span>-Thor, God of Thunder</span>
-    </section>
-    <section>
-        <div>
-            <div>
-                <h4>Call to action! It's time!</h4>
-                <span>Sign up for our product by clicking that button right over there!</span>
+
+    <main>
+        <h2>Some random information.</h2>
+        <div class="card-container secondary">
+            <div class="card">
+                <div class="square"></div>
+                <p>this is some subtext under an illustration or image</p>
             </div>
-            <div>
-                <button>Sign Up</button>
+
+            <div class="card">
+                <div class="square"></div>
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+
+            <div class="card">
+                <div class="square"></div>
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+
+            <div class="card">
+                <div class="square"></div>
+                <p>this is some subtext under an illustration or image</p>
             </div>
         </div>
-    </section>
-    <section>
-        <p>Copyright © The Odin Project 2022</p>
-    </section>
+    </main>
+
+    <div class="quote">
+        <em>This is an inspiring quote, or a testimonial from a customer.
+            Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it
+            looks nice.</em>
+        <p>- Thor, God of Thunder</p>
+    </div>
+
+    <div class="sign-up">
+        <div class="container">
+            <div class="left">
+                <strong>Call to action! It's time!</strong>
+                <p class="secondary">Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <div class="right">
+                <button class="secondary">Sign up</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        Copyright &copy; The Odin Project 2021
+    </footer>
 </body>
+
 </html>
